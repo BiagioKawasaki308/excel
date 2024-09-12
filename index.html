@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="left-menu">
+            <a href="#">📞 08020111</a>
+            <a href="#">⏰ Lun-Ven 9-13; 15-19</a>
+            <a href="#">📧 info@artemide.org</a>
+        </div>
+        <div class="logo">
+            <img src="https://www.artemide.org/wp-content/uploads/2022/12/cropped-Artemide.org-logo.png" alt="Logo">
+        </div>
+    </div>
+
+    <!-- Form -->
+    <div class="form-container" id="formContainer">
+        <form id="infoForm" name="contact-form" method="post" action="">
+            <!-- Campi del form -->
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label>
+                <input type="checkbox" id="decisionale" name="decisionale" required>
+                Ho letto, compreso e accettato, i termini e condizioni (obbligatorio) 
+            </label>
+
+            <label>
+                <input type="checkbox" id="dati" name="dati" required>
+                Inserendo la tua email, acconsenti al trattamento dei dati secondo la nostra Informativa sulla <a href="https://forma.artemide.org/admin/tool/dataprivacy/summary.php">Privacy</a>.
+            </label>
+
+            <button  style="background-color: #ba2828;" type="submit">Invia</button>
+        </form>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

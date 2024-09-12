@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Stile globale per un aspetto pulito */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .logo img {
+            max-height: 50px;
+        }
+
+        /* Stile per la navbar */
+
+
+        /* Stile per il contenuto video */
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50px auto;
+            max-width: 800px;
+        }
+
+        /* Stile per il video */
+        .video iframe {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .video {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Stile del bottone */
+        .info-button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 30px; /* Aggiungi margine sopra il bottone */
+        }
+
+        .info-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="left-menu">
+            <a href="#">📞 08020111</a>
+            <a href="#">⏰ Lun-Ven 9-13; 15-19</a>
+            <a href="#">📧 info@artemide.org</a>
+        </div>
+        <div class="logo">
+            <img src="https://www.artemide.org/wp-content/uploads/2022/12/cropped-Artemide.org-logo.png" alt="Logo">
+        </div>
+    </div>
+
+    <!-- Sezione video -->
+    <div class="content">
+        <!-- Video YouTube e bottone -->
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+            <!-- Bottone sotto il video -->
+            <a href="https://forma.artemide.org" style="text-decoration: none;">
+                <button style="background-color: #ba2828;" class="info-button">Maggiori Informazioni</button>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
